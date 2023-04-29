@@ -1,0 +1,135 @@
+.dpage{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 0.2fr 0.6fr 1.4fr 1fr;
+    padding: 3em;
+    background-color: #DDDDDD;
+    height: auto;
+    
+}
+
+.nav{
+   grid-row-start: span 4;
+   background-color: black;
+   color: white;
+   border-radius: 1em;
+   display: flex;
+   flex-direction: column;
+   padding-left: 4em;
+   padding-top: 3em;
+   width: 12em;
+}
+.nav h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+.btncontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    
+}
+.btn3{
+    background-color: black;
+    border: black;
+    color: white;
+    text-align: start;
+    margin-bottom: 2em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125%;
+}
+
+.spanbox{
+    /* border: 1px solid red; */
+    /* margin-top: 20em; */
+    position: relative;
+    top: 18em;
+    right: 3em;
+   
+  
+}
+
+/* .spanbox ul{
+    margin: 0px;
+    
+} */
+.spanbox ul>li{
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80%;
+    
+}
+
+.heading{
+    grid-column-start: 2 ;
+    grid-column-end: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.heading h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+    margin-left: 2em;
+}
+
+.searchbox{
+    margin-top: 2em;
+    /* border: 1px solid red; */
+    width: 18em;
+    height: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+    /* width: 18em; */
+    /* height: 1.5em; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.searchbox input{
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+}
+
+.topc{
+    margin-top: 2em;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1em;
+}
+
+.calender{
+    grid-column-start: 5;
+    /* grid-column-end: 6; */
+    grid-row-start: 4;
+    
+}
+.linechart{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-column-end: 5;
+}
+
+.pichart{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+.profile{
+    border-radius: 50%;
+}

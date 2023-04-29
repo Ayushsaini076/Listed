@@ -1,0 +1,71 @@
+.pibox{
+    /* border:1px solid red; */
+    background-color: #FFFFFF;
+    margin-left: 3em;
+    width:30vw;
+    /* height: 15em; */
+    border-radius: 1em;
+    padding:1em 2em 1em 2em;
+    
+    /* height: 10em; */
+
+}
+.phd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.phd h4{
+    
+    font-weight: 700;
+    font-size: 125%;
+    color: #000000;
+}
+.phd span{
+    margin-top: 2em;
+    font-weight: 400;
+    font-size: 80%;
+    color: #858585;
+}
+.pc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .infobox{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+} */
+.pinfo{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-bottom: 1em;
+}
+.pinfo h6{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+
+}
+.pinfo span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80%;
+    color: #858585;
+}
+
+.dot{
+    border: 0.3em;
+    border-radius: 50%;
+    height: 0.3em;
+    margin-right: 1em;
+    
+}

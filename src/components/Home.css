@@ -1,0 +1,137 @@
+.signup-page{
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .left{
+    height: 100vh;
+    width: 40%;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+  
+  }
+  
+  .right{
+    width: 60%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+  }
+  
+  .main h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    font-size: 205%;
+    margin-bottom: 0px;
+    
+  }
+  
+  .main p{
+    margin-top: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+  }
+  
+  .btnbox{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .btn{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 2em;
+    /* width: 12em; */
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #858585;
+    border-color: #FFFFFF;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .btn img{
+    margin-right: 0.4em;
+    margin-left: 0.4em;
+  }
+  
+  .hbox{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 5%;
+    border-radius:  1em;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    height: 60%;
+    margin-top: 5%;
+  }
+  
+  .hbox form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .hbox form input{
+    border-radius: 0.5em;
+    height: 2em;
+    background-color: #F5F5F5;
+    margin-bottom: 1em;
+    border-color:#FFFFFF;
+  
+  }
+  
+  .link{
+    color: #346BD4;
+  }
+  
+  .btn2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    height: 2em;
+    width: 13em;
+    border-radius: 0.5em;
+    background-color: #000000;
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 125%;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  #span2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    color: #858585;
+    margin-top: 2em;
+  }
+  

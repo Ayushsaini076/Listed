@@ -1,0 +1,38 @@
+.cardbox{
+    /* border: 1px solid red; */
+
+    width: 12em;
+    height: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+
+    border-radius: 1em;
+
+}
+
+.content{
+    position: relative;
+    top: 1.5em;
+    left: 0.8em;
+}
+
+.title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125%;
+}
+
+.des{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.logo{
+    position: relative;
+    left: 10.5em;
+    bottom:3em
+}
